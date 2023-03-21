@@ -20,6 +20,9 @@ To achieve the goal of finding missing people, I made use of the following tools
 <a  href="https://heroku.com"  target="_blank"> <img  src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"  alt="heroku"  width="40"  height="40"/> </a>
 <p align="right">(<a  href="#top">back to top</a>)</p>
 
+
+![Demo](adaface_demo5.gif)
+The demo shows a comparison between AdaFace and ArcFace on a live video.
 <!-- GETTING STARTED -->
 
 
