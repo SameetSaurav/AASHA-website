@@ -4,8 +4,11 @@ AASHA: A hope to Find your Loved one (Django-based Missing Persons Identificatio
 ===================================================
 
 This project is a web-based application for identifying missing persons using state-of-the-art deep learning models like SFace, ArcFace etc. trained on [MLFW: A Database for Face Recognition on Masked Faces](https://paperswithcode.com/paper/mlfw-a-database-for-face-recognition-on) . It also used latest loss function like Quality Adaptive Margin. It allows users to upload images of missing persons, which are then compared to a database of images using advanced facial recognition technology to help identify them.
+
+
+
 ![Screenshot](Screenshot (162).png)
-The demo shows a comparison between AdaFace and ArcFace on a live video.
+
 
 ###  Built With
 To achieve the goal of finding missing people, I made use of the following tools and languages,
