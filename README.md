@@ -1,11 +1,9 @@
 <!-- ABOUT THE PROJECT -->
 ##  About The Project
-The thought of a family member, a friend or someone else you care about going missing can be terrifying. This project aims to help find your loved ones using Face Recognition Technology. If someone you know is missing, then,
-- Register the missing person with us.
-- Once the background check is done and the missing person is verified, we generate a unique Face ID for the missing person using Azure's Face API.
-- When volunteers report a suspected missing person, we verify and generate a Face ID the same way. We then use Azure's Find Similar API to identify a potential match with our database of missing person Face IDs.
-- If a match is found we will contact you.
-<p align="right">(<a  href="#top">back to top</a>)</p>
+AASHA: A hope to Find your Loved one (Django-based Missing Persons Identification Project)
+===================================================
+
+This project is a web-based application for identifying missing persons using state-of-the-art deep learning models like SFace, ArcFace etc. trained on [MLFW: A Database for Face Recognition on Masked Faces](https://paperswithcode.com/paper/mlfw-a-database-for-face-recognition-on) . It also used latest loss function like Quality Adaptive Margin. It allows users to upload images of missing persons, which are then compared to a database of images using advanced facial recognition technology to help identify them.
 
 ###  Built With
 To achieve the goal of finding missing people, I made use of the following tools and languages,
@@ -23,10 +21,70 @@ To achieve the goal of finding missing people, I made use of the following tools
 <p align="right">(<a  href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-##  Getting Started
-###  Prerequisites
-Firstly you have to make sure you have python installed. If you don't have python, you can get it [here](https://www.python.org/downloads/).
-* Use this command to check if python is installed,
-```sh
-python --version
-```
+
+
+Table of Contents
+-----------------
+
+-   [Installation](#installation)
+-   [Usage](#usage)
+-   [Features](#features)
+-   [Technologies Used](#technologies-used)
+-   [Contributing](#contributing)
+-   [License](#license)
+
+Installation
+------------
+
+To use this project, you need to have Python and Django installed on your machine.
+
+1.  Clone this repository onto your machine: `git clone https://github.com/SameetSaurav/AASHA-website/tree/master.git`.
+2.  Navigate to the project directory: `cd AASHA-website`.
+3.  Install the dependencies: `pip install -r requirements.txt`.
+
+Usage
+-----
+
+To start the Django server, run the following command in your terminal:
+
+Copy code
+
+`python manage.py runserver`
+
+You can then navigate to the URL provided in the terminal to use the application.
+
+Features
+--------
+
+-   User authentication: The application requires users to create an account and log in before they can upload images or view the database of missing persons.
+-   Image uploading: Users can upload images of missing persons, which are then added to the database and compared to existing images using deep learning algorithms.
+-   Facial recognition: The application uses state-of-the-art deep learning algorithms to compare uploaded images to a database of images to help identify missing persons using SOTA DeepLearning Models.
+-   Database management: The application includes a database management system that allows administrators to add, edit, and delete images and information about missing persons.
+-   Centralized Governance
+
+Technologies Used
+-----------------
+
+-   Python
+-   Django
+-   TensorFlow
+-   OpenCV
+-   SQLite
+-   HTML/CSS
+-   JavaScript
+
+Contributing
+------------
+
+If you would like to contribute to this project, please follow these steps:
+
+1.  Fork the repository.
+2.  Create a new branch: `git checkout -b your-branch-name`.
+3.  Make your changes and commit them: `git commit -m 'Your commit message'`.
+4.  Push to the branch: `git push origin your-branch-name`.
+5.  Submit a pull request.
+
+License
+-------
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
